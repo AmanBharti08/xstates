@@ -126,10 +126,10 @@ const Location = () => {
       </div>
       {city && (
         <div className="text">
-          <p style={{ fontSize: "larger" }}>
-            You Selected{" "}
-            <span style={{ fontSize: "xx-large" }}>
-              {city}, {state}, {country}
+          <p style={{ fontSize: "x-large" }}>
+            You selected <span style={{ fontSize: "xx-large" }}>{city},</span>{" "}
+            <span style={{ color: "grey" }}>
+              {state}, {country}
             </span>
           </p>
         </div>
