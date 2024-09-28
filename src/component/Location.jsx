@@ -129,7 +129,7 @@ const Location = () => {
           <p style={{ fontSize: "larger" }}>
             You Selected{" "}
             <span style={{ fontSize: "xx-large" }}>
-              {city}, {state} {country}
+              {city}, {state}, {country}
             </span>
           </p>
         </div>
